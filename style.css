@@ -1,0 +1,123 @@
+.splash-screen {
+    background-color: #f0f0f0;
+    text-align: center;
+    padding: 50px;
+}
+
+.learn-more {
+    text-align: center;
+    margin: 20px;
+}
+
+.learn-more a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.content-block {
+    margin: 8px;
+    text-align: center;
+}
+
+.content-block img {
+    height: 175px;
+    text-align: center;
+    width: 250px;
+}
+
+@media screen and (max-width: 800px) {
+    .content-block {
+        width: 100%;
+        margin: 8px;
+        display: block;
+    }
+
+    .content-block p {
+        display: block;
+        width: 100%;
+        margin: 8px;
+    }
+
+    .content-block img {
+        display: block;
+        margin: 8px;
+        text-align: center;
+        width: 100%;
+
+    }
+}
+@media screen and (min-width: 801px) {
+
+    .content-block {
+        width: 250px;
+        display: inline-block;
+        margin: 4px;
+    }
+
+    .content-block p {
+        display: inline-block;
+        margin: 4px;
+    }
+
+    .content-block img {
+        display: inline-block;
+        margin: 4px;
+        text-align: center
+    }
+}
+
+.content-container {
+    margin: 8px;
+}
+
+.content-container p {
+    margin: 8px;
+}
+
+@media screen and (min-width: 801px) {
+
+    .content-container p {
+        display: inline;
+        margin: 4px;
+        text-align: center;
+    }
+
+}
+
+@media screen and (max-width: 800px) {
+
+    .content-container p {
+        display: inline-block;
+        margin: 4px;
+        text-align: center;
+    }
+
+}
+
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
